@@ -1,0 +1,12 @@
+new = []
+new2 = []
+words = input()
+save = []
+count = 0
+words = words.split()
+for i in words:
+    i = i.lower()
+    new.append(i)
+for i in words:
+    j = new.count(i.lower())
+    print(i, j)
